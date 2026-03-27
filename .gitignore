@@ -113,3 +113,8 @@ desktop.ini
 benchmarks/results/
 benchmarks/*.csv
 benchmarks/*.json
+
+# ──────────────────────────────────────────────
+# 文档
+# ──────────────────────────────────────────────
+docs/
