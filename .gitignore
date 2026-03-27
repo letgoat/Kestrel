@@ -1,0 +1,115 @@
+# ──────────────────────────────────────────────
+# C / C++ 编译产物
+# ──────────────────────────────────────────────
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+*.pch
+*.gch
+
+# ──────────────────────────────────────────────
+# CMake 构建目录与缓存
+# ──────────────────────────────────────────────
+build/
+build-*/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+install_manifest.txt
+_deps/
+compile_commands.json
+
+# ──────────────────────────────────────────────
+# Python
+# ──────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# 虚拟环境
+.venv/
+venv/
+env/
+.env/
+ENV/
+
+# 打包 / 发行
+dist/
+*.egg-info/
+*.egg
+MANIFEST
+.eggs/
+site-packages/
+
+# 测试 / 覆盖率
+.pytest_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.tox/
+
+# 类型检查
+.mypy_cache/
+.pytype/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ──────────────────────────────────────────────
+# 模型文件（体积庞大，通过独立渠道管理）
+# ──────────────────────────────────────────────
+*.gguf
+*.ggml
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.h5
+models/.cache/
+
+# ──────────────────────────────────────────────
+# 日志 / 临时文件
+# ──────────────────────────────────────────────
+*.log
+*.tmp
+*.swp
+*.bak
+*.orig
+
+# ──────────────────────────────────────────────
+# IDE / 编辑器
+# ──────────────────────────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.clangd/
+.cache/
+
+# ──────────────────────────────────────────────
+# 操作系统
+# ──────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ──────────────────────────────────────────────
+# 脚本产出 / benchmarks 数据
+# ──────────────────────────────────────────────
+benchmarks/results/
+benchmarks/*.csv
+benchmarks/*.json
